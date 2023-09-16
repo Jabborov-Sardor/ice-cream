@@ -1,0 +1,808 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+nav {
+  width: 1600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+.nav_logo {
+  /* position: relative;
+    left: 80px; */
+  width: 79px;
+  height: 79px;
+}
+
+.nav_links {
+  width: 600px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  /* border: 3px solid red; */
+}
+.nav_links-item-modifer:hover {
+  text-decoration: none;
+  color: #d23166;
+  color: #d23166;
+  transform: 0.3s;
+}
+.nav_links span {
+  color: #d23166;
+}
+
+/* royxat tagidagi chiziqni yoqotiwim kerak */
+.nav-btns {
+  width: 165px;
+  height: 49px;
+  font-size: 16px;
+  padding: 10px;
+  background: #d23166;
+  border: none;
+  border-radius: 5px;
+}
+
+section {
+  width: 1600px;
+  height: 862px;
+  margin: -15px;
+  display: flex;
+  background-color: rgba(242, 206, 218, 0.3);
+  justify-content: space-between;
+  align-items: center center;
+  background-image: url(./img/Ellipse\19\\);
+  background-repeat: no-repeat;
+  background-position: 1000px 700px;
+}
+
+.section_p {
+  width: 100%;
+  margin-left: 120px;
+  margin-top: 150px;
+}
+
+.section_p h3 {
+  color: #0f0101;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+  display: flex;
+}
+.section_p h1 {
+  width: 700px;
+  height: 130px;
+  font-family: Fredoka One;
+  font-weight: 400;
+  font-size: 70px;
+  margin-top: 50px;
+}
+.section_p h1 span {
+  color: #d23166;
+  opacity: 0.9;
+  font-weight: 400;
+}
+.section_p p {
+  margin-top: 50px;
+  width: 523px;
+  height: 78px;
+  font-family: Hind Madurai;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.6;
+  margin-top: 50px;
+}
+
+.section-btn {
+  width: 165px;
+  height: 49px;
+  background: #d23166;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  margin-top: 50px;
+}
+.section_img-cream {
+  width: 597px;
+  height: 585px;
+  fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  position: relative;
+  left: 20px;
+  top: 100px;
+}
+.section_img-milk {
+  width: 850px;
+  height: 530px;
+  transform: rotate(4.793deg);
+  position: relative;
+  top: 270px;
+  right: 675px;
+}
+.elips {
+  width: 365px;
+  height: 353px;
+  border-radius: 365px;
+  opacity: 0.1;
+  background: #d23166;
+  position: relative;
+  left: 825px;
+  bottom: 210px;
+}
+
+.selection {
+  width: 1117px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.selection_car {
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  align-items: center;
+  border-radius: 7px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  padding-top: 20px;
+}
+
+.selection_car h5 {
+  margin-top: 10px;
+}
+
+.selection_car p {
+  margin-top: 10px;
+  width: 198px;
+  height: 35px;
+  text-align: center;
+  font-family: Hind Madurai;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.7;
+  position: relative;
+  left: 26px;
+}
+
+.selection_quik {
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  background: #fff;
+  padding-top: 20px;
+}
+
+.selection_quik h5 {
+  margin-top: 10px;
+}
+
+.selection_quik p {
+  margin-top: 10px;
+  width: 198px;
+  height: 35px;
+  text-align: center;
+  font-family: Hind Madurai;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.7;
+  position: relative;
+  left: 26px;
+}
+
+.selection_money {
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  border-radius: 7px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  padding-top: 20px;
+}
+
+.selection_money h5 {
+  margin-top: 10px;
+}
+
+.selection_money p {
+  margin-top: 10px;
+  width: 198px;
+  height: 35px;
+  text-align: center;
+  font-family: Hind Madurai;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.7;
+  position: relative;
+  left: 26px;
+}
+
+.selection_fast {
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  border-radius: 7px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  padding-top: 20px;
+}
+
+.selection_fast h5 {
+  margin-top: 10px;
+}
+
+.selection_fast p {
+  margin-top: 10px;
+  width: 198px;
+  height: 35px;
+  text-align: center;
+  font-family: Hind Madurai;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.7;
+  position: relative;
+  left: 26px;
+}
+.brown {
+  width: 1600px;
+  height: 545px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8edf0;
+}
+
+.sugar h2 {
+  width: 350px;
+  height: 98px;
+  font-family: Hind Madurai;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.sugar p {
+  width: 445px;
+  height: 58px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  margin-top: 20px;
+}
+
+.sugar button {
+  width: 165px;
+  height: 50px;
+  border-radius: 5px;
+  background: #d64374;
+  border: none;
+  margin-top: 20px;
+}
+
+.brown img {
+  width: 656px;
+  height: 656;
+  position: relative;
+  left: 200px;
+}
+.ellips_20 {
+  width: 283px;
+  height: 28px;
+  border-radius: 285px;
+  opacity: 0.9;
+  background: #edb5c7;
+  filter: blur(16px);
+  border-radius: 50%;
+  border: none;
+  position: relative;
+  right: 260px;
+  top: 200px;
+}
+
+.our h2 {
+  text-align: center;
+  font-family: Hind Madurai;
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 233px;
+}
+
+.our_links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 60px;
+}
+
+.our_links-link-madifaer {
+  margin-right: 35px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.607);
+  text-decoration: none;
+}
+
+.our_links-link-madifaer:hover {
+  color: black;
+  transform: 0.3s;
+  border-bottom: 2px solid #d64374;
+}
+
+.our_brown-bread {
+  display: flex;
+  justify-content: space-between;
+  width: 1119px;
+  height: 415px;
+  margin: auto;
+}
+
+.our_brown-bread img {
+  width: 580px;
+  height: 415px;
+  border-radius: 10px;
+}
+
+.our_brown-bread-bread {
+  width: 450px;
+  height: 230px;
+}
+
+.our_brown-bread-bread h3 {
+  font-family: Hind Madurai;
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 110px;
+}
+
+.our_brown-bread-bread-p {
+  width: 454px;
+  height: 67px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  opacity: 0.7;
+}
+
+.our_brown-bread-bread-price {
+  color: #000;
+  font-family: Hind Madurai;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.our_brown-bread-bread-price-sp {
+  color: #000;
+  font-family: Hind Madurai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: strikethrough;
+}
+
+.our_brown-bread-bread button {
+  width: 165px;
+  height: 49px;
+  border-radius: 5px;
+  background: #d64374;
+  border: none;
+  margin-top: 20px;
+}
+/* cayenne boshlandi */
+.our_cayenne {
+  display: flex;
+  justify-content: space-between;
+  width: 1119px;
+  height: 415px;
+  margin: auto;
+}
+
+.our_cayenne-chocolate {
+  width: 450px;
+  height: 230px;
+}
+
+.our_cayenne-chocolate h3 {
+  font-family: Hind Madurai;
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 110px;
+}
+
+.our_cayenne_chocolate-p {
+  width: 454px;
+  height: 67px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  opacity: 0.7;
+}
+
+.our_cayenne_chocolate-price {
+  color: #000;
+  font-family: Hind Madurai;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.our_cayenne_chocolate-price-sp {
+  color: #000;
+  font-family: Hind Madurai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: strikethrough;
+}
+
+.our_chocolate button {
+  width: 165px;
+  height: 49px;
+  border-radius: 5px;
+  background: #d64374;
+  border: none;
+  margin-top: 20px;
+}
+
+.our_cayenne img {
+  width: 580px;
+  height: 415px;
+  border-radius: 10px;
+}
+/* sweet boshlandi */
+.our_sweet {
+  display: flex;
+  justify-content: space-between;
+  width: 1119px;
+  height: 415px;
+  margin: auto;
+}
+.our_sweet img {
+  width: 580px;
+  height: 415px;
+  border-radius: 10px;
+}
+
+.our_sweet_corn {
+  width: 450px;
+  height: 230px;
+}
+
+.our_sweet_corn h3 {
+  font-family: Hind Madurai;
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 110px;
+}
+
+.our_sweet_corn-p {
+  width: 454px;
+  height: 67px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  opacity: 0.7;
+}
+
+.our_sweet_corn-price {
+  color: #000;
+  font-family: Hind Madurai;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.our_sweet_corn-price-sp {
+  color: #000;
+  font-family: Hind Madurai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: strikethrough;
+}
+
+.our_sweet_corn button {
+  width: 165px;
+  height: 49px;
+  border-radius: 5px;
+  background: #d64374;
+  border: none;
+  margin-top: 20px;
+}
+/* sweet tugagan */
+
+.our_icecream {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.our_icecream-sec {
+  margin-left: 120px;
+}
+
+.adele {
+  width: 59px;
+  height: 58px;
+  border-radius: 59px;
+}
+
+.our_icecream-sec h3 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.our_icecream-sec h5 {
+  width: 77px;
+  height: 15px;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.chap_qowtirnoq {
+  width: 10.968px;
+  height: 10px;
+  left: 10px;
+  color: rgba(246, 118, 44, 1);
+}
+
+.our_icecream-sec p {
+  width: 322px;
+  height: 70px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ong_qowtirnoq {
+  width: 10.968px;
+  height: 10px;
+  color: rgba(246, 118, 44, 1);
+}
+
+.lef_arrow {
+  width: 14px;
+  height: 14px;
+  color: rgba(214, 67, 116, 1);
+}
+
+.ice_img1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.img_img-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 58%;
+}
+
+.ice_img3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.rieght-arrow {
+  width: 14px;
+  height: 14px;
+}
+
+.ice_ime {
+  width: 564px;
+  height: 442px;
+}
+/* icecream tugadi */
+/* footer boshlandi*/
+
+.footer_simple {
+  width: 1600px;
+  height: 678px;
+  background: #f8edf0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer_simple-big-img {
+  width: 305px;
+  height: 627px;
+  border-radius: 60px;
+  position: relative;
+  top: 100px;
+}
+
+.footer_simple-item h2 {
+  width: 642px;
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 500;
+  margin-top: 100px;
+}
+
+.footer_simple-item p {
+  width: 607px;
+  height: 60px;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+
+.footer_simple-group {
+  display: flex;
+  align-items: center;
+}
+
+.footer_simple-group img {
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+}
+
+.footer_simple-group-food {
+  width: 166px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.footer_simple-group2 {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.footer_simple-group2 img {
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+}
+
+.footer_simple-group-cart {
+  width: 116px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.footer_simple-group3 {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.footer_simple-group3 img {
+  width: 16px;
+  height: 12.387px;
+  margin-right: 10px;
+}
+
+.footer_simple-group-order {
+  width: 159px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.footer_simple-imgs {
+  display: flex;
+  margin-top: 40px;
+}
+
+.googl-play {
+  width: 200px;
+  height: 77px;
+}
+
+.app-store {
+  width: 173px;
+  height: 88px;
+}
+
+/* footer simple tugadi */
+
+/* footer have quition boshlandi */
+
+ .have_quition{
+  width: 1600px;
+  height: 565px;
+  position: relative;
+
+} 
+
+.have_quition h2 {
+  width: 522px;
+  height: 123px;
+  text-align: center;
+  margin: auto;
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 500;
+  margin-top: 140px;
+}
+
+/* .have_quition-number{
+  position: absolute;
+  left: 650px;
+  top: 120px;
+} */
+
+/* .have_quition-send{
+  position: absolute;
+  left: 650px;
+  top: 160px;
+} */
+
+.have_quition-number{
+  width: 303px;
+  height: 74px;
+  border-radius: 5px;
+border: 1px solid #FFA3A3;
+margin-left: 500px;
+padding-left: 20px;
+ /* position: absolute;
+left: 800px;  */
+}
+
+.have_quition-type{
+  width: 303px;
+  height: 74px;
+  border-radius: 5px;
+border: 1px solid #FFA3A3;
+/* position: absolute;
+left: 800px; */
+margin-left: 30px;
+padding: 0px 20px 0px 20px;
+opacity: 0.6;
+}
+
+.have_quition-your{
+  width: 637px;
+  height: 74px;
+  border-radius: 5px;
+border: 1px solid #FFA3A3;
+margin-left: 500px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 20px;
+opacity: 0.6;
+margin-top: 20px;
+}
+
+.have_quition button{
+  width: 134px;
+height: 74px;
+color: white;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+border-radius: 5px;
+background: #D64374;
+}
